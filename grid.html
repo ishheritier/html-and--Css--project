@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html>
+<head>
+<style>
+  .container-top, .container-bottom {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+     column-gap: 20px;
+     row-gap: 40px;
+  }
+
+  /* Optional styling for grid items */
+  .item {
+    border: 1px solid #ccc;
+    padding: 10px;
+    text-align: center;
+  }
+
+  .grid-exercise{
+    display: grid;
+    grid-template-columns: 200px 75px;
+    padding-top: 100px;
+    
+  }
+
+  .repeated-grid{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    column-gap: 20px;
+    row-gap: 10px;
+  }
+</style>
+</head>
+<body>
+
+<div class="container-top">
+  <div class="item">Item 1</div>
+  <div class="item">Item 2</div>
+  <div class="item">Item 3</div>
+</div>
+
+<div class="container-bottom">
+  <div class="item">Item 4</div>
+  <div class="item">Item 5</div>
+  <div class="item">Item 6</div>
+</div>
+   
+<div class="grid-exercise">
+ 
+  <div class="boo" style="background-color: blueviolet;">ittiii1</div>
+  <div class="boo" style="background-color: black;">tiii2</div>
+  <div class="boo" style="background-color: black;">tiii2</div>
+
+</div>
+
+<div class="repeated-grid" style="padding-top: 50px;">
+  <div></div>
+  <div class="boo" style="background-color: blueviolet;">ittiii1</div>
+  <div class="boo" style="background-color: black;">tiii2</div>
+  <div class="boo" style="background-color: black;">tiii2</div>
+  <div class="boo" style="background-color: blueviolet;">ittiii1</div>
+  <div class="boo" style="background-color: black;">tiii2</div>
+  <div class="boo" style="background-color: black;">tiii2</div>
+
+</div>
+</body>
+</html>
